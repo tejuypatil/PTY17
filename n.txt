@@ -1,0 +1,6 @@
+#!/bin/bash -x
+
+
+arrayofNumbers=(10 50 70 30 80)
+length=${#arrayofNumbers[@]}
+echo $length

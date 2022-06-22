@@ -1,0 +1,12 @@
+#!/bin/bash -x
+
+declare -A  cube
+
+cube[front]="flowers"
+cube[top]="tree"
+cube[right]="fruit"
+cube[left]="water"
+
+
+echo ${#cube[@]}
+echo ${cube[@]}
